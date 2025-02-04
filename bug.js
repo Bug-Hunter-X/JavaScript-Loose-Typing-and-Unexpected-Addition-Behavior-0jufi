@@ -1,0 +1,1 @@
+function foo(a,b){return a+b;}console.log(foo(1,2)); //3console.log(foo(1,"2")); //12console.log(foo(null,2));//2console.log(foo(undefined,2));//NaNconsole.log(foo(true,2)); //3console.log(foo(false,2));//2console.log(foo([1,2],2)); //2,2console.log(foo({a:1},2)); //[object Object]2console.log(foo(NaN,2)); //NaNconsole.log(foo(Infinity,2)); //Infinity
